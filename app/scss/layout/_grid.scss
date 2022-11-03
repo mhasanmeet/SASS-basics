@@ -1,0 +1,21 @@
+@use '../utils' as u;
+
+main{
+    width: 100%;
+    
+    @include u.breakpoint-up(large){
+        text-align: center;
+    }
+
+    @include u.breakpoint-down(large){
+        text-align: right;
+    }
+
+    p{
+
+        @include u.breakpoint-up(large){
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
