@@ -4,6 +4,4 @@
 
 if we use folder then the structure is: 
 
-`sass --watch app/scss/style.scss:dist/style.css`
-
-## folder structure: 
+`sass --watch assets/scss/main.scss:assets/css/main.css`

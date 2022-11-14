@@ -1,0 +1,11 @@
+// @forward 'globals';
+// @forward 'layout';
+
+@use 'base/reset';
+@use 'globals/index';
+@use 'layout/index';
+@use 'utils/index';
+
+@use 'components/header';
+
+// do not use @forward as sass suggest not to use forward, instead they suggest @use 
